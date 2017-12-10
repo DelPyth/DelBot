@@ -10,12 +10,10 @@ This bot was made to have a little fun on Discord.
 Also to let me learn some python lol
 
 Just follow the directions, run the lnk file, make sure you have python 3.6.3 installed, and you're good to go!
-
-
+<!--
 # Welcome to the DelBot wiki!
 ## For anything regarding how to use the bot, follow the commands below!
 
-<!--
 ### Anything in <> is a parameter.
 ### All parameters are surrounded by spaces.
 For example: `.8 Will I ever finish this sentence?` is useable.
