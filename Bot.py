@@ -21,6 +21,7 @@ import json
 from discord.ext import commands
 
 # You can change the prefix if you do choose to
+# Just make sure that it makes sense
 bot = commands.Bot(command_prefix='.', description="Delta's Bot")
 
 bot.description = '"Just a Hero for Fun" - Saitama'
