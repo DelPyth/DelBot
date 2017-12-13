@@ -1,7 +1,7 @@
 # THESE ARE COMMANDS THAT I HAVE DISCARDED, EITHER FOR ERRORS I CAN'T SOLVE MYSELF
 # OR I WAS WANTING TO USE THEM, BUT GREW TIRED OF TRYING TO GET IT TO WORK
 
-"""
+'''
 def lyrics(artist, song):
 	artist = artist.lower()
 	song = song.lower()
@@ -16,15 +16,15 @@ def lyrics(artist, song):
 	lyrics = re.sub('(<.*?>)', "", lyrics)
 
 	return lyrics
-"""
+'''
 
-"""
+'''
 @commands.command()
 async def lyrics(self, ctx, artist, song):
 	await ctx.send(f"```\n{lyrics(artist, song)}\n```")
-"""
+'''
 
-"""
+'''
 # Disabled until updated
 
 @commands.command(aliases=['def'])
@@ -54,4 +54,4 @@ async def define(self, ctx, *, query):
 	embed.set_footer(text='Oxford University Press', icon_url='https://i.imgur.com/7GMY4dP.png')
 
 	await ctx.send(embed=embed)
-"""
+'''
