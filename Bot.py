@@ -123,7 +123,7 @@ discord.Embed = Embed
 
 """
 	==========================================================================
-	DO NOT GIVE YOUR TOKEN TO ANYONE ELSE BESIDES PEOPLE YOU **REALLY** TRUST
+	DO NOT GIVE YOUR TOKEN TO ANYONE ELSE BESIDES PEOPLE YOU **REALLY** TRUST!
 	==========================================================================
 """
 with open("cfg/token.txt", "r") as file:
