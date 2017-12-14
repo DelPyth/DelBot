@@ -1,5 +1,6 @@
 # DelBot
-
+Created by Delta Pythagorean. Otherwise known as DelPyth
+85% of the bot was made by 85% of RUNIE
 # Requires Discord.py Rewrite 1.0.0a
 ## Anything else will throw errors and bugs everywhere.
 
