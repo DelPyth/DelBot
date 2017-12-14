@@ -120,7 +120,6 @@ discord.Embed = Embed
 # if you don't know your token, go to: https://discordapp.com/developers/applications/me
 # choose the bot you want to use (Or create one)
 # and copy and paste your token into the file.
-
 """
 	==========================================================================
 	DO NOT GIVE YOUR TOKEN TO ANYONE ELSE BESIDES PEOPLE YOU **REALLY** TRUST!
