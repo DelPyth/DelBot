@@ -103,5 +103,12 @@ class Commands:
 		"""Get the source to this bot!"""
 		await ctx.send('`Coming soon...`')
 
+	@client.command(pass_context=True)
+	async def ping(ctx):
+		"""This isn't a ping pong game... I wish it was..."""
+		now = datetime.datetime.utcnow()
+		delta = now-ctx.message.timestamp
+		await client.say(f'Pong! {delta(microseconds=1)}ms')
+
 def setup(bot):
 	bot.add_cog(Commands(bot))
